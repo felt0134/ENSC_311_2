@@ -18,3 +18,5 @@ usethis::create_package(direct,check_name=F)
 direct <- getwd()
 
 ?create_package
+
+devtools::install_github("felt0134/ENSC_311_2")

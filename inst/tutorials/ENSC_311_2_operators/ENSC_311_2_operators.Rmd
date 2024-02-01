@@ -9,8 +9,9 @@ runtime: shiny_prerendered
 knitr::opts_chunk$set(echo = FALSE)
 library(learnr)
 library(ENSC311)
+library(ENSC_311_2)
 gradethis::gradethis_setup()
-options(tutorial.event_recorder = ENSC311::recorder)
+options(tutorial.event_recorder = ENSC_311_2::recorder)
 ```
 
 ## Operators and names 
